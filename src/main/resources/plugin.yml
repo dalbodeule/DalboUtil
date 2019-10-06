@@ -6,12 +6,8 @@ depend:
 authors:
   - dalbodeule
 commands:
-  test:
-    permission: dalboz.test
   party:
-    permission: dalboz.party
+    permission: dalboutil.party
 permissions:
-  dalboz.test:
-    default: true
-  dalboz.party:
+  dalboutil.party:
     default: true

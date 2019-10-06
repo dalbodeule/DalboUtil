@@ -26,7 +26,7 @@ object PartyManager : Listener {
         val attacker = if (event.damager is Player) event.damager as Player else return
 
         if (victim.currentParty == attacker.currentParty) {
-            if (Config().config.partyTeamKillBlock) {
+            if (Config.config.partyTeamKillBlock) {
                 event.isCancelled = true
             }
         }
