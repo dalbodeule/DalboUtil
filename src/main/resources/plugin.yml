@@ -1,0 +1,17 @@
+name: DalboUtil
+version: @version@
+main: space.mori.dalboutil.DalboUtil
+api-version: 1.14
+depend:
+authors:
+  - dalbodeule
+commands:
+  test:
+    permission: dalboz.test
+  party:
+    permission: dalboz.party
+permissions:
+  dalboz.test:
+    default: true
+  dalboz.party:
+    default: true
